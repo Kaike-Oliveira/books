@@ -1,7 +1,8 @@
 {
   "extends": [
     "airbnb",
-    "airbnb-typescript"
+    "airbnb-typescript",
+    "plugin:storybook/recommended"
   ],
   "parserOptions": {
     "project": "./tsconfig.json"
