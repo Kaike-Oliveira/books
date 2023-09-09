@@ -50,6 +50,7 @@ export const ButtonComponent = styled.button<ButtonComponentProps>`
   background-color: ${({ type }) => mapBackgroundColorByType[type]};
   border: 2px solid ${({ type }) => mapBorderColorByType[type]};
   transition: ease-in-out 150ms;
+  font-family: sans-serif;
   
   &:hover {
     color: ${({ type }) => mapTextColorHoverByType[type]};
