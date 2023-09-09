@@ -2,44 +2,9 @@
 import styled from 'styled-components';
 
 interface InputComponentProps {
-  type: 'text' | 'number' | 'password';
+  type: 'text' | 'password';
   block: boolean;
 }
-
-// const mapBackgroundColorByType = {
-//   primary: '#EB9B00',
-//   secondary: '#FFFFFF',
-// };
-//
-// const mapBorderColorByType = {
-//   primary: '#EB9B00',
-//   secondary: '#EB9B00',
-// };
-//
-// const mapTextColorByType = {
-//   primary: '#FFFFFF',
-//   secondary: '#EB9B00',
-// };
-//
-// const mapBackgroundColorHoverByType = {
-//   primary: '#B87900',
-//   secondary: '#FFFFFF',
-// };
-//
-// const mapBorderColorHoverByType = {
-//   primary: '#B87900',
-//   secondary: '#B87900',
-// };
-//
-// const mapTextColorHoverByType = {
-//   primary: '#FFFFFF',
-//   secondary: '#B87900',
-// };
-//
-// const mapPaddingBySize = {
-//   sm: '8px 16px',
-//   md: '16px 24px',
-// };
 
 export const InputContainer = styled.div`
   display: flex;
@@ -50,6 +15,7 @@ export const InputContainer = styled.div`
   box-sizing: border-box;
   border-radius: 24px;
   padding: 0 12px;
+  font-family: sans-serif;
 `;
 
 export const PrefixContainer = styled.div`
@@ -77,4 +43,5 @@ export const InputComponent = styled.input<InputComponentProps>`
   border: none;
   outline: none;
   font-size: 16px;
+  font-family: sans-serif;
 `;
