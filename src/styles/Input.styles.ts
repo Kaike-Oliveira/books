@@ -46,7 +46,7 @@ export const InputContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   height: 44px;
-  border: 1px solid red;
+  border: 1px solid #002F52;
   box-sizing: border-box;
   border-radius: 24px;
   padding: 0 12px;
@@ -67,7 +67,7 @@ export const SuffixContainer = styled.div`
   align-items: center;
   width: 24px;
   height: 24px;
-  margin-left: 12px;
+  margin-left: 12px;   
 `;
 
 export const InputComponent = styled.input<InputComponentProps>`
