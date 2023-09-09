@@ -3,7 +3,6 @@
   <component name="EslintConfiguration">
     <work-dir-patterns value="$PROJECT_DIR$" />
     <custom-configuration-file used="false" path="$PROJECT_DIR$/.eslintrc.json" />
-    <additional-rules-dir value="$PROJECT_DIR$" />
     <option name="fix-on-save" value="true" />
   </component>
 </project>
